@@ -3,9 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WEB DESING BY: JESUS MADERO</title>
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - [Tu Nombre]. Aquí va un resumen con las palabras clave.">
+    <meta name="author" content="Tu Nombre">
+    <title>WDD 131 - Dynamic Web Fundamentals - Jesus Madero</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <script defer src="scripts/getdates.js"></script>
 </head>
 <body>
-    
+    <header>
+        <h1>WDD 131 - Dynamic Web Fundamentals</h1>
+        <nav>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/jesus-madero-vera-410a00240/ "target="_blank">LinkedIn</a></li>
+                <li><a href="https://byui.instructure.com/" target="_blank">I-Learn</a></li>
+                <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/3?lang=eng&id=p7#p7" target="_blank"> Favorite Scripture </a></li>
+                <li><a href="#" target="_blank">Final Project</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="card">
+            <h2>About Me</h2>
+            <p>My Name is Jesus Madero. I was born in Venezuela and live with my family in Mar del Plata, Argentina.
+                I am currently studying as a Software Developer. <a href="#">recursos</a>.
+            </p>
+            <img src="images/Profile.jpeg" alt="Profile Picture" class="profile-image">
+            
+            <p>
+                The national flag of Argentina is, along with the national coat of arms, the national anthem, and the cockade, 
+                one of the four national symbols of the country. Its creation corresponds to Manuel Belgrano, who designed it with the blue and white colors of the national cockade; although it later had some modifications. It was raised for the first time in Rosario, on February 27, 1812.
+            </p>
+            <img src="images/Flag_Argentina.svg.png" alt="Flag Argentina" class="flag-image">
+        </section>
+        
+
+        <section class="card">
+            <h2>Web Dev Resources</h2>
+            <p>Mdn<a href="https://developer.mozilla.org/es/">Mdn Docs</a>.</p>
+            <p>Coolors <a href="https://coolors.co/?home">Coolors</a>.</p>
+            <p>My tools<a href="#">recursos</a>.</p>
+            <p>My tools<a href="#">recursos</a>.</p>
+            
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Jesus Madero , Mar del Plata- Buenos Aires, Argentina</p>
+        <p id="lastModified"></p>
+    </footer>
 </body>
 </html>
