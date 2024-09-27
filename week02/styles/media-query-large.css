@@ -1,0 +1,16 @@
+@media screen and (min-width: 500px) {
+    header {
+      background-color: #101010;
+      color: white;
+      box-shadow: 9px 9px 16px #bebebe, -9px -9px 16px #ffffff; 
+    }
+  
+    main {
+      grid-template-columns: 1fr 1fr; 
+    }
+  
+    footer {
+      box-shadow: 9px 9px 16px #bebebe, -9px -9px 16px #ffffff;
+    }
+  }
+  
